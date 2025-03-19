@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-moda-girl',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './mg-moda-girl.component.html',
   styleUrls: ['./mg-moda-girl.component.scss']
 })

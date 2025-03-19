@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-mentoria',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './mentoria.component.html',
   styleUrls: ['./mentoria.component.scss']
 })

@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-mg-phones',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './mg-phones.component.html',
   styleUrls: ['./mg-phones.component.scss']
 })

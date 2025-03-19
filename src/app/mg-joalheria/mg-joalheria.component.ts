@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-mg-joalheria',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './mg-joalheria.component.html',
   styleUrls: ['./mg-joalheria.component.scss']
 })

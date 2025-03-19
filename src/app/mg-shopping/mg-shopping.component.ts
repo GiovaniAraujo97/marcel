@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-mg-shopping',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './mg-shopping.component.html',
   styleUrls: ['./mg-shopping.component.scss']
 })
