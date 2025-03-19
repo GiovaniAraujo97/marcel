@@ -1,0 +1,89 @@
+.mg-joalheria {
+  padding: 60px 20px;
+  background-color: black;
+  text-align: center;
+
+  .mg-joalheria-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  .carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .carousel-image {
+      width: 100%;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .carousel-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 1.5rem;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      &.prev {
+        left: 10px;
+      }
+
+      &.next {
+        right: 10px;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    .button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+
+      &.instagram {
+        background-color: #8740e48e; // Cor do Instagram
+        color: white;
+
+        &:hover {
+          background-color: #c13584; // Cor do Instagram (hover)
+          transform: translateY(-5px);
+        }
+      }
+
+      &.whatsapp {
+        background-color: #25d366; // Cor do WhatsApp
+        color: white;
+
+        &:hover {
+          background-color: #128c7e;
+          transform: translateY(-5px);
+        }
+      }
+
+      i {
+        margin-right: 8px;
+      }
+    }
+  }
+}
